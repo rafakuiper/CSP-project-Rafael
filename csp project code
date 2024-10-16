@@ -1,6 +1,19 @@
 import turtle as trtl
+import random
+start_loop = 'y' 
 
-painter = trtl.Turtle()
+while (start_loop == 'y'):
+
+  a=random.randint(10,50)
+  b=random.randint(-360,360)
+  c=random.randint(-360,360)
+
+
+  painter = trtl.Turtle()
+
+  painter.forward(a)
+  painter.right(b)
+  painter.left(c)
 
 
 
