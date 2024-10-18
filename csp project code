@@ -1,6 +1,7 @@
 
 
 
+
 import turtle as trtl
 import random
 
@@ -12,7 +13,6 @@ while (start_loop == 'y'):
   
   
   words = ("blue", "red", "green", "yellow", "orange", "pink","black","gray","cyan","purple","brown")
-  d = ["0", "e"]
   
   e=random.randint(0,30)
   a=random.randint(10,50)
@@ -25,7 +25,7 @@ while (start_loop == 'y'):
   painter.right(c)
   painter.fillcolor(random.choice(words))
   painter.begin_fill()
-  painter.circle(random.choice(e))
+  painter.circle(e)
   painter.end_fill()
   
   
